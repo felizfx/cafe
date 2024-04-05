@@ -1,11 +1,13 @@
 import { setName } from "../index.js";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://cafe-api-zt84.onrender.com");
 
-socket.emit("connection", () => {
-  console.log("Connected to server");
-});
+socket.emit("connection");
 
-socket.on("new_name", (name) => {
+socket.on("currentName", name => {
+    setName(name);
+})
+
+socket.on("new_name", name => {
     setName(name);
 })
