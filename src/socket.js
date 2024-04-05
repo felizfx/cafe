@@ -1,6 +1,6 @@
 import { setName } from "../index.js";
 
-const socket = io("https://cafe-api-zt84.onrender.com");
+const socket = io("http://localhost:8080");
 
 socket.emit("connection");
 
