@@ -54,8 +54,4 @@ main > h3 {
     #main-title {
         font-size: 3.5rem;
     }
-    main{
-        position: sticky;
-        top: 0;
-    }
 }
