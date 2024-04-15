@@ -49,9 +49,9 @@ main > h3 {
 
 @media only screen and (max-width: 500px) {
     main > h3 {
-        font-size: 25px;
+        font-size: 30px;
     }
     #main-title {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
