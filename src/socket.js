@@ -9,6 +9,5 @@ socket.on("currentName", person => {
 })
 
 socket.on("new_name", person => {
-    console.log(person);
     setName(person.name);
 })
