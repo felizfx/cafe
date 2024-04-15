@@ -32,6 +32,7 @@ main {
 main > h3 {
     color: #fff;
     font-size: 45px;
+    margin: 0 20px;
 }
 
 #name {
@@ -44,4 +45,13 @@ main > h3 {
 
 #emoji {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    main > h3 {
+        font-size: 35px;
+    }
+    #main-title {
+        font-size: 3.5rem;
+    }
 }
